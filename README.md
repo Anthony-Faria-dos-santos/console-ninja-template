@@ -1,6 +1,7 @@
 ⬇︎-----------⬇︎-----------⬇︎- À effacer après initialisation -⬇︎-----------⬇︎-----------⬇︎
 
 
+
 ## Installation du template
 
 ### Objectif  
@@ -78,7 +79,7 @@ puis copiez à nouveau le package-lock.json dans template/.
    ```
 - **Comparer avec ce SHA-256 (uniquement pour la v1.0.0)** : 
     ```bash
-    2cd88d3291f8f336b1bfb4fc9df5557d64a30b9d5c6442d8d4e11c7b37862487
+    
     ```
 
 

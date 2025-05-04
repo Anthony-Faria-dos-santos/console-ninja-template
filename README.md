@@ -72,14 +72,14 @@ puis copiez à nouveau le package-lock.json dans template/.
  ## Vérification de l’intégrité de l'archive v1.0.0
 
 - **Archive** : [Console-ninja-Template-1.0.0.tar.gz](https://github.com/Anthony-Faria-dos-santos/console-ninja-template/archive/refs/tags/v1.0.0.tar.gz) ou directement dans les releases.
-- **SHA-256** : 
+- **SHA-256** : e123ed5d5aa6b828171ab477d18823923ed8ec922dadaba28c3c674d483f2e95  Console-ninja-Template-1.0.0.tar.gz
 - **Calculez son SHA-256** :
    ```bash
    shasum -a 256 Console-ninja-Template-1.0.0.tar.gz
    ```
 - **Comparer avec ce SHA-256 (uniquement pour la v1.0.0)** : 
     ```bash
-    
+    e123ed5d5aa6b828171ab477d18823923ed8ec922dadaba28c3c674d483f2e95
     ```
 
 

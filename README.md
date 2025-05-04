@@ -1,4 +1,7 @@
-## Installation
+⬇︎-----------⬇︎-----------⬇︎- À effacer après initialisation -⬇︎-----------⬇︎-----------⬇︎
+
+
+## Installation du template
 
 ### Objectif  
 Ce template a pour but d’installer automatiquement **Live Server** (via le runtime `live-server`) de façon sécurisée, sans laisser de vulnérabilités connues dans ses dépendances :
@@ -23,3 +26,6 @@ Ce template a pour but d’installer automatiquement **Live Server** (via le run
 │   ├── package.json
 │   └── package-lock.json
 └── setup.sh
+```
+
+⬆︎-----------⬆︎-----------⬆︎- À effacer après initialisation -⬆︎-----------⬆︎-----------⬆︎

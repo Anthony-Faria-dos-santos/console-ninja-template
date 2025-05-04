@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "live-server": "^1.2.0"
+  },
+  "devDependencies": {
+    "npm-force-resolutions": "^0.0.10"
+  },
+  "overrides": {
+    "braces": "3.0.3",
+    "debug": ">=3.1.0",
+    "ms": "2.0.0",
+    "micromatch": "4.0.8"
+  },
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "setup": "bash setup.sh"
+  }
+}

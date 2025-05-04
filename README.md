@@ -55,16 +55,16 @@ npm audit
 
 ### Personnalisation & maintenance
 
-  •	Vous pouvez mettre à jour les versions des overrides dans template/package.json si de nouvelles vulnérabilités sont découvertes.
+ •	Vous pouvez mettre à jour les versions des overrides dans template/package.json si de nouvelles vulnérabilités sont découvertes.
   
-  •	Pour ajouter un autre runtime ou test‐runner supporté (ex. http-server, jest, vite…), ajoutez-le simplement aux dependencies et ajustez le LOCKFILE en lançant localement :
+ •	Pour ajouter un autre runtime ou test‐runner supporté (ex. http-server, jest, vite…), ajoutez-le simplement aux dependencies et ajustez le LOCKFILE en lançant localement :
 ```bash
 npm install <nouveau-package>
 npm ci
 ```
 puis copiez à nouveau le package-lock.json dans template/.
 
-  •	Pensez à committer et pousser vos évolutions sur le dépôt template pour qu’elles soient répercutées dans tous vos nouveaux projets.
+ •	Pensez à committer et pousser vos évolutions sur le dépôt template pour qu’elles soient répercutées dans tous vos nouveaux projets.
 
 
 ⬆︎-----------⬆︎-----------⬆︎- À effacer après initialisation -⬆︎-----------⬆︎-----------⬆︎

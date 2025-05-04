@@ -70,15 +70,16 @@ puis copiez à nouveau le package-lock.json dans template/.
 
  ## Vérification de l’intégrité
 
-1. Téléchargez l’archive :`myproject-1.0.0.tar.gz`.  
-2. Calculez son SHA-256 :
+ ## Téléchargements et intégrité
+
+- **Archive** : [Console-ninja-Template-1.0.0.tar.gz](https://github.com/…/releases/download/v1.0.0/Console-ninja-Template-1.0.0.tar.gz)
+- **SHA-256** : 
+- **Calculez son SHA-256** :
    ```bash
-   shasum -a 256 myproject-1.0.0.tar.gz
+   shasum -a 256 Console-ninja-Template-1.0.0.tar.gz
    ```
-3. Vérifiez que la somme retournée correspond à :
-```bash
-d2d2f5c2f9e3b1a3e4f5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7
-```
+- **Comparer avec ce SHA-256** :
+
 
 
 ⬆︎-----------⬆︎-----------⬆︎- À effacer après initialisation -⬆︎-----------⬆︎-----------⬆︎

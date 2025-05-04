@@ -28,4 +28,43 @@ Ce template a pour but d’installer automatiquement **Live Server** (via le run
 └── setup.sh
 ```
 
+---
+
+### Utilisation dans un nouveau projet
+
+1.	Cloner le dépôt template et se positionner dans le dossier :
+```bash 
+git clone https://github.com/votre-org/console-ninja-template.git mon-projet
+cd mon-projet
+```
+2.	Lancer la configuration :
+```bash
+npm run setup
+```
+  ou directement :
+```bash
+bash setup.sh
+```
+3.	Vérifier qu’il n’y a plus de vulnérabilités :
+```bash
+npm audit
+```
+→ aucune alerte ne doit remonter pour live-server ni pour ses sous-dépendances.
+
+---
+
+### Personnalisation & maintenance
+
+  •	Vous pouvez mettre à jour les versions des overrides dans template/package.json si de nouvelles vulnérabilités sont découvertes.
+  
+  •	Pour ajouter un autre runtime ou test‐runner supporté (ex. http-server, jest, vite…), ajoutez-le simplement aux dependencies et ajustez le LOCKFILE en lançant localement :
+```bash
+npm install <nouveau-package>
+npm ci
+```
+puis copiez à nouveau le package-lock.json dans template/.
+
+  •	Pensez à committer et pousser vos évolutions sur le dépôt template pour qu’elles soient répercutées dans tous vos nouveaux projets.
+
+
 ⬆︎-----------⬆︎-----------⬆︎- À effacer après initialisation -⬆︎-----------⬆︎-----------⬆︎

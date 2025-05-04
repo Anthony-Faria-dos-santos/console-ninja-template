@@ -32,12 +32,12 @@ Ce template a pour but d’installer automatiquement **Live Server** (via le run
 
 ### Utilisation dans un nouveau projet
 
-1.	Cloner le dépôt template et se positionner dans le dossier :
+1.    Cloner le dépôt template et se positionner dans le dossier :
 ```bash 
 git clone https://github.com/votre-org/console-ninja-template.git mon-projet
 cd mon-projet
 ```
-2.	Lancer la configuration :
+2.    Lancer la configuration :
 ```bash
 npm run setup
 ```
@@ -45,7 +45,7 @@ npm run setup
 ```bash
 bash setup.sh
 ```
-3.	Vérifier qu’il n’y a plus de vulnérabilités :
+3.    Vérifier qu’il n’y a plus de vulnérabilités :
 ```bash
 npm audit
 ```
@@ -55,16 +55,30 @@ npm audit
 
 ### Personnalisation & maintenance
 
- •	Vous pouvez mettre à jour les versions des overrides dans template/package.json si de nouvelles vulnérabilités sont découvertes.
+ •    Vous pouvez mettre à jour les versions des overrides dans template/package.json si de nouvelles vulnérabilités sont découvertes.
   
- •	Pour ajouter un autre runtime ou test‐runner supporté (ex. http-server, jest, vite…), ajoutez-le simplement aux dependencies et ajustez le LOCKFILE en lançant localement :
+ •    Pour ajouter un autre runtime ou test‐runner supporté (ex. http-server, jest, vite…), ajoutez-le simplement aux dependencies et ajustez le LOCKFILE en lançant localement :
 ```bash
 npm install <nouveau-package>
 npm ci
 ```
 puis copiez à nouveau le package-lock.json dans template/.
 
- •	Pensez à committer et pousser vos évolutions sur le dépôt template pour qu’elles soient répercutées dans tous vos nouveaux projets.
+ •    Pensez à committer et pousser vos évolutions sur le dépôt template pour qu’elles soient répercutées dans tous vos nouveaux projets.
+
+ ---
+
+ ## Vérification de l’intégrité
+
+1. Téléchargez l’archive :`myproject-1.0.0.tar.gz`.  
+2. Calculez son SHA-256 :
+   ```bash
+   shasum -a 256 myproject-1.0.0.tar.gz
+   ```
+3. Vérifiez que la somme retournée correspond à :
+```bash
+d2d2f5c2f9e3b1a3e4f5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7
+```
 
 
 ⬆︎-----------⬆︎-----------⬆︎- À effacer après initialisation -⬆︎-----------⬆︎-----------⬆︎
